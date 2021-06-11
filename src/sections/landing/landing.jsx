@@ -14,9 +14,6 @@ import './landing.scss'
 
 const Landing = () => {
     return (
-        <div>
-
-            <NavBar/>
 
             <div className="landing-container">
             
@@ -30,53 +27,51 @@ const Landing = () => {
                     <div className="powered">
                         
                         <div className="lineName">
-                            <Line className = 'dashed-line showMax'/>
+                            <Line className = 'show'/>
                             <div className="textPower">Powered for : </div>
                         </div>
 
                         <div className="checkPlan">
 
                                 <div className="power_icons">
-                                    <Banks className = 'icon'/>
+                                    <Banks className = 'icon' width = '40px'/>
                                     <p>Banks</p>
                                 </div>
 
                                 <div className="power_icons">
-                                    <Fintech className = 'icon'/>
+                                    <Fintech className = 'icon' width = '40px'/>
                                     <p>Fintechs</p>
                                 </div>
 
                                 <div className="power_icons">
-                                    <Mmo className = 'icon'/>
+                                    <Mmo className = 'icon' width = '40px'/>
                                     <p>MMOs</p>
                                 </div>
 
                                 <div className="power_icons">
-                                    <Aggregators className = 'icon'/>
+                                    <Aggregators className = 'icon' width = '40px'/>
                                     <p>Aggregators</p>
                                 </div>
 
                         </div>
 
-                        <Line className = 'show'/>
+                        <Line className = 'showMax'/>
 
                     </div> 
 
+                </div>
+
+
+                <div className="arrowLead">
+                    <FeatherIcon icon = 'arrow-down' className = 'leader-arrow' />
                 </div>
 
                 <div className="landingImage">
                     <img src={LandingImage} alt="gironet-landing" />
                 </div>
 
-                <div className="arrowLead">
-                    <FeatherIcon icon = 'arrow-down' className = 'leader-arrow' />
-                </div>
-
 
             </div>
-
-
-        </div>
     );
 }
 

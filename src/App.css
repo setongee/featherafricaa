@@ -1,11 +1,15 @@
 *{
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
 }
 
 body{
   font-family: 'Mulish', sans-serif;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+.container{
   width: 100%;
   overflow-x: hidden;
 }

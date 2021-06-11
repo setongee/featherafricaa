@@ -38,6 +38,8 @@ const NavBar = () => {
 
                         <div className="action-btn-burger">Dashboard</div>
 
+                        <div className="action-btn-burger outline-btn">Request Demo</div>
+
                     </div>
 
                 </div>

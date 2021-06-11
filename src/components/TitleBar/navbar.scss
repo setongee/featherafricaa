@@ -1,10 +1,9 @@
 .navigation{
     background-color: #fff;
-    width: 100%;
     display: flex;
     align-items: center;
-    padding: 20px 250px;
     justify-content: space-between;
+    padding: 20px 250px;
 
     .logo{
         height: 35px;
@@ -55,8 +54,9 @@
     height: 100vh;
     width: 100%;
     padding: 30px 50px;
-    transform: translateX(-100%);
+    box-sizing: border-box;
     transition: transform .2s ease-in-out;
+    transform: translateX(-100%);
 
     li{
         list-style: none;
@@ -78,13 +78,20 @@
 
     .action-btn-burger{
         background-color: #5001bc;
-        margin: 25px 0;
+        margin-top: 25px;
         padding: 17px;
         border-radius: 5px;
         color: #fff;
         text-align: center;
         font-size: 14px;
         font-weight: bold;
+    }
+
+    .outline-btn{
+        background: none;
+        color: #000;
+        border: 1px solid rgba($color: #000000, $alpha: .4);
+        margin-top: 15px;
     }
 }
 
@@ -95,8 +102,9 @@
 
 .fixed-nav{
     position: fixed;
-    width: 100%;
     z-index: 99;
+    width: 100%;
+    max-width: 1440px;
 
 }
 
@@ -111,3 +119,23 @@
         .burger {display: block;}
     }
   }
+
+  @media (max-width: 1024px) {
+
+    .navigation{
+        padding: 20px 100px;
+    }
+  }
+
+  @media (max-width: 425px) {
+
+    .navigation{
+        padding: 20px 20px;
+    }
+
+    .burger_nav{
+        padding: 30px 20px;
+    }
+  }
+
+
