@@ -1,3 +1,7 @@
+@font-face {font-family: "GD Boing";
+    src: url("https://db.onlinewebfonts.com/t/2d8cf0a1ae3cf90fc45730a9e56b1db2.ttf") format("truetype")
+}
+
 .landing-container{
     overflow-x: hidden;
     width: inherit;
@@ -15,7 +19,7 @@
 
             h1{
                 font-size: 60px;
-                font-family: 'gd boing';
+                font-family: 'GD Boing';
                 line-height: 65px;
             }
 

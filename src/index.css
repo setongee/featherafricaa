@@ -1,9 +1,7 @@
 
 @font-face {
     font-family: 'gd boing';
-    src: local('gd boing'), url(./fonts/gd\ boing.ttf) format('truetype');
-    /* other formats include: 'woff2', 'truetype, 'opentype',
-                              'embedded-opentype', and 'svg' */
+    src: local('gd boing'), url(./fonts/gd_boing.ttf) format('truetype');
   }
 
   body{
