@@ -1,5 +1,4 @@
 import React from 'react';
-import NavBar from '../../components/TitleBar/NavBar'
 import {ReactComponent as Line} from '../../assets/dashed-line.svg'
 import {ReactComponent as Banks} from '../../assets/banks.svg'
 import {ReactComponent as Fintech} from '../../assets/fintech.svg'
