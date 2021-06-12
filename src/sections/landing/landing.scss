@@ -6,8 +6,6 @@
     overflow-x: hidden;
     width: inherit;
     margin-top: 80px;
-    position: relative;
-    height: calc(100vh - 80px);
 
     .contentArea{
 
@@ -116,9 +114,9 @@
     .landingImage{
         width: 63%;
         position: absolute;
-        z-index: 30;
+        z-index: 90;
         right: 0px;
-        top: -60px;
+        top: 40px;
 
         img{
             width: 100%;
@@ -385,7 +383,7 @@
     .landingImage{
         width: 145% !important;
         display: block !important;
-        top: 270px !important;
+        top: 370px !important;
         right: -100px !important;
     }
 
@@ -437,9 +435,9 @@
 @media (max-width: 375px) {
 
     .landingImage{
-        width: 145% !important;
+        width: 155% !important;
         display: block !important;
-        top: 265px !important;
+        top: 330px !important;
         right: -100px !important;
     }
 

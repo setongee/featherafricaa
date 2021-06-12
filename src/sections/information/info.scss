@@ -1,0 +1,241 @@
+.information{
+    width: 100%;
+    margin-top: 300px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+
+    h1, h4{
+
+        font-family: 'GD Boing';
+        color: #150033;
+    }
+
+    h1{
+        font-size: 70px;
+    }
+
+    h4{
+        font-size: 24px;
+    }
+
+    p{
+        width: 35%;
+        text-align: center;
+        margin: 20px 0;
+        line-height: 30px;
+    }
+
+    .pipeline{
+        width: 400px;
+        position: absolute;
+        left: 80px;
+        top: 155px;
+        z-index: 40;
+    }
+
+    .giro-line{
+        top: calc(63% + 30px);
+        position: absolute;
+        opacity: .3;
+    }
+
+    .cmd_btn{
+        background-color: #00c5a7;
+        padding: 20px 70px;
+        border-radius: 100px;
+        top: 63%;
+        position: absolute;
+        z-index: 50;
+        font-weight: bold;
+        font-size: 14px;
+        color: #fff;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 1300px) {
+
+    .information{
+
+        margin-top: 150px;
+
+        .pipeline{
+            left: 0px !important;
+        }
+
+        p{
+            width: 40% !important;
+        }
+    }
+
+}
+
+@media (max-width: 1024px) {
+
+    .information{
+
+        .pipeline{
+            left: 0px !important;
+            top: 40% !important;
+        }
+
+        p{
+            width: 50% !important;
+        }
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .information{
+
+        .pipeline{
+            left: 0px !important;
+            top: 60% !important;
+        }
+
+        p{
+            width: 55% !important;
+        }
+
+        h1{
+            width: 50%;
+            line-height: 70px;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        h4{
+            font-size: 21px;
+        }
+
+        .cmd_btn{
+            top: 80% !important ;
+        }
+
+        .giro-line{
+            top: calc(80% + 30px) !important;
+        }
+    }
+
+}
+
+@media (max-width: 620px) {
+
+    .information{
+
+        .pipeline{
+            display: none;
+        }
+
+        p{
+            width: 80% !important;
+        }
+
+        h1{
+            width: 100%;
+            line-height: 70px;
+            text-align: center !important;
+            margin: 10px 0;
+            font-size: 50px;
+        }
+
+        h4{
+            font-size: 21px;
+        }
+
+        .cmd_btn{
+            top: 60% !important ;
+        }
+
+        .giro-line{
+            top: calc(60% + 30px) !important;
+        }
+    }
+
+}
+
+@media (max-width: 425px) {
+
+    .information{
+
+        margin-top: 450px;
+
+        .pipeline{
+            display: none;
+        }
+
+        p{
+            width: 80% !important;
+        }
+
+        h1{
+            width: 100%;
+            line-height: 60px;
+            text-align: center !important;
+            margin: 10px 0;
+            font-size: 55px;
+        }
+
+        h4{
+            font-size: 21px;
+        }
+
+        .cmd_btn{
+            top: 70% !important ;
+            padding: 20px 120px;
+        }
+
+        .giro-line{
+            top: calc(70% + 30px) !important;
+        }
+    }
+
+}
+
+@media (max-width: 375px) {
+
+    .information{
+
+        margin-top: 400px;
+
+        .pipeline{
+            display: none;
+        }
+
+        p{
+            width: 85% !important;
+            font-size: 14px;
+            line-height: 28px;
+        }
+
+        h1{
+            width: 100%;
+            line-height: 55px;
+            text-align: center !important;
+            margin: 10px 0;
+            font-size: 50px;
+        }
+
+        h4{
+            font-size: 18px;
+        }
+
+        .cmd_btn{
+            top: 65% !important;
+        }
+
+        .giro-line{
+            top: calc(65% + 30px) !important;
+        }
+    }
+
+}
+
