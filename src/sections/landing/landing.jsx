@@ -21,13 +21,14 @@ const Landing = () => {
                     <div className="headingText">
                         <h1>send money {<br></br>} across fintechs {<br></br>} from <span style = {{color : '#6c00ff'}}>one</span> <span style = {{color : '#5001bc'}}>api</span>.</h1>
                         <p>We have created for you a payments ecosystem that enables emerging and existing financial technologies to perform transactions among themselves with ease.</p>
+                        <p className="size425"> We have created for you a payments ecosystem that enables emerging and existing banks, fintechs, mmos and aggregators carry out transaction among themselves with ease</p>
                     </div>
 
                     <div className="powered">
                         
                         <div className="lineName">
                             <Line className = 'show'/>
-                            <div className="textPower">Powered for : </div>
+                            <div className="textPower">Who needs this</div>
                         </div>
 
                         <div className="checkPlan">
