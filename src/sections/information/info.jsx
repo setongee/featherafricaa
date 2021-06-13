@@ -7,7 +7,7 @@ const Info = () => {
 
     return (
 
-        <div className="information">
+        <div className="information" id = 'info'>
 
             <h4>Your technology + gironet API = </h4>
             <h1>unlimited possibilities</h1>

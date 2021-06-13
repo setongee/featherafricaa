@@ -4,8 +4,7 @@ import {ReactComponent as Banks} from '../../assets/banks.svg'
 import {ReactComponent as Fintech} from '../../assets/fintech.svg'
 import {ReactComponent as Aggregators} from '../../assets/aggregators.svg'
 import {ReactComponent as Mmo} from '../../assets/mmo.svg'
-import FeatherIcon from 'feather-icons-react';
-
+import FeatherIcon from 'feather-icons-react'
 
 import LandingImage from '../../assets/gironet-landing-image.png'
 
@@ -62,9 +61,9 @@ const Landing = () => {
                 </div>
 
 
-                <div className="arrowLead">
+                <a className="arrowLead" href = '#info'>
                     <FeatherIcon icon = 'arrow-down' className = 'leader-arrow' />
-                </div>
+                </a>
 
                 <div className="landingImage">
                     <img src={LandingImage} alt="gironet-landing" />
