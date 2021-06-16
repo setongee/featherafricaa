@@ -9,7 +9,7 @@ const Feature = ( { tag, icon, color, header, header2, subtitle, image, track, t
 
     return (
 
-        <div className = {`features_container ${track === 3 ? 'last-child-feature' : ''}`} id = {`${position === !true ? 'reorder' : '' }`} >
+        <div className = {`features_container ${track === 3 ? 'last-child-feature' : ''}`} id = 'features' >
             
             <div className="tagArea">{tag2}</div>
 
