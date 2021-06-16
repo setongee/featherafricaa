@@ -2,7 +2,10 @@ import './App.css';
 import Landing from './sections/landing/landing'
 import NavBar from './components/TitleBar/NavBar'
 import Info from './sections/information/info'
-import Transfer from './sections/features/transfer/Transfer'
+import Feature from './sections/features/feature/Feature'
+import Developer from './sections/developer/Developer'
+import Contact from './sections/contact/contact'
+import Footer from './sections/footer/footer';
 
 import transfer from './assets/transfer.svg'
 import nfp from './assets/nfp.svg'
@@ -33,7 +36,7 @@ const App = () => {
       header2 : ' based actions.',
       subtitle : 'Perform transactions based on your current location (e.g pay business/customers close to you, find agency banks close to you for withdrawals.',
       image : nfp,
-      position : !true
+      position : !true,
     },
     {
       tag : 'Withdraw Cash',
@@ -73,10 +76,14 @@ const App = () => {
 
           const {tag, tag2, icon, color, header, header2, subtitle, image, position} = feature
 
-          return <Transfer key = {index} tag = {tag} tag2 = {tag2} icon = {icon} color = {color} header = {header} header2 = {header2} subtitle = {subtitle} image = {image} position = {position} />
+          return <Feature key = {index} tag = {tag} tag2 = {tag2} icon = {icon} color = {color} header = {header} header2 = {header2} subtitle = {subtitle} image = {image} position = {position} track = {index} />
 
         })
       }
+
+      <Developer/>
+      <Contact/>
+      <Footer/>
       
     </div>
 

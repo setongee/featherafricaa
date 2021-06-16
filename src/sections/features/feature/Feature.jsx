@@ -1,13 +1,15 @@
 import React from 'react';
-import './transfer.scss'
+import './feature.scss'
 import FeatherIcon from 'feather-icons-react'
 import {ReactComponent as Line} from '../../../assets/dashed-line.svg'
 
-const Transfer = ( { tag, icon, color, header, header2, subtitle, image, position, tag2} ) => {
+const Feature = ( { tag, icon, color, header, header2, subtitle, image, track, tag2, position} ) => {
+
+    console.log(track);
 
     return (
 
-        <div className="features_container">
+        <div className = {`features_container ${track === 3 ? 'last-child-feature' : ''}`} id = {`${position === !true ? 'reorder' : '' }`} >
             
             <div className="tagArea">{tag2}</div>
 
@@ -36,4 +38,4 @@ const Transfer = ( { tag, icon, color, header, header2, subtitle, image, positio
     );
 }
 
-export default Transfer;
+export default Feature;

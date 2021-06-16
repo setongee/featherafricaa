@@ -16,7 +16,7 @@ const Info = () => {
             
             <img className = 'pipeline' src={Pipe} alt="gironet pipeline" />
 
-            <div className="cmd_btn">Request Demo</div>
+            <a className="cmd_btn" href = '#contact'>Request Demo</a>
 
             <Line className = 'giro-line' />
 
