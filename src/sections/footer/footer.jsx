@@ -36,7 +36,7 @@ const Footer = () => {
                 <img src={Logo} alt="gironet logo" style = {logo} />
             </div>
             <div className="copyright" style = {copy} >
-                @2021. Giro Cloud Technologies. All rights reserved
+                @2022. Feather Africa Inc. All rights reserved
             </div>
 
         </div>

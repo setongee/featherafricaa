@@ -11,6 +11,7 @@ import transfer from './assets/transfer.svg'
 import nfp from './assets/nfp.svg'
 import bills from './assets/bills.svg'
 import withdraw from './assets/withdraw.svg'
+import chat from './assets/chat.svg'
 
 const App = () => {
 
@@ -23,7 +24,7 @@ const App = () => {
       color : '#004eff',
       header : 'Transfer',
       header2 : ' money easily.',
-      subtitle : 'Send and receive money across multiple fintech solutions in africa. Provide your customers with a robust method of money transfer.',
+      subtitle : 'end and receive money from anyone using feather and even to bank accounts.',
       image : transfer,
       position : true
     },
@@ -34,7 +35,7 @@ const App = () => {
       color : '#FFA700',
       header : 'Perform gps',
       header2 : ' based actions.',
-      subtitle : 'Perform transactions based on your current location (e.g pay business/customers close to you, find agency banks close to you for withdrawals.',
+      subtitle : 'You can now find the nearest cash vendor (mobile money agent) on your phone and withdraw without ATM cards.',
       image : nfp,
       position : !true,
     },
@@ -45,7 +46,7 @@ const App = () => {
       color : '#D3007A',
       header : 'Withdraw cash',
       header2 : ' quickly & safely.',
-      subtitle : 'Send and receive money across multiple fintech solutions in africa. Provide your customers with a robust method of money transfer.',
+      subtitle : 'You can now withdraw your cash from anyone on feather without using a debit card.',
       image : withdraw,
       position : true
     },
@@ -56,10 +57,22 @@ const App = () => {
       color : '#5001BC',
       header : 'Pay bills, airtime',
       header2 : ' & data purchase.',
-      subtitle : 'Send and receive money across multiple fintech solutions in africa. Provide your customers with a robust method of money transfer.',
+      subtitle : 'Initiate bill payments, airtime & data purchases from your customers favorite biller and network provider',
       image : bills,
       position : !true
+    },
+    {
+      tag : 'Chat',
+      tag2 : 'In---Chat',
+      icon : 'message-circle',
+      color : '#003ad6',
+      header : 'In-App',
+      header2 : ' Messaging : ',
+      subtitle : 'enjoy a seamless transaction experience through our in-app communication with your cash vendor.',
+      image : chat,
+      position : true
     }
+    
 
   ]
 
@@ -69,7 +82,7 @@ const App = () => {
 
       <NavBar/>
       <Landing/>
-      <Info/>
+      {/* <Info/> */}
       
       {
         featuresData.map((feature, index)=> {
@@ -81,7 +94,6 @@ const App = () => {
         })
       }
 
-      <Developer/>
       <Contact/>
       <Footer/>
       

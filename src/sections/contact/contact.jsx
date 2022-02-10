@@ -11,8 +11,6 @@ const Contact = () => {
         lastname : '',
         email : '',
         phone : '',
-        company : '',
-        role : '',
         country : ''
     }
 
@@ -21,8 +19,6 @@ const Contact = () => {
         lastname : '',
         email : '',
         phone : '',
-        company : '',
-        role : '',
         country : 'Nigeria'
     })
 
@@ -32,13 +28,15 @@ const Contact = () => {
         
         e.preventDefault();
 
+
+
         await contactForm(contact)
-        await setContact(initialState)
         
         await setsentmail(true);
 
         setTimeout(() => {
             setsentmail(false)
+            setContact(initialState)
         }, 3000);
 
     }
@@ -60,16 +58,14 @@ const Contact = () => {
 
         <div className="contact" id = 'contact'>
 
-            <PipelineTube/>
-
             <div className="contact_content">
-                <h1>gironet is better {<br></br>} together, request {<br></br>} for a demo today. </h1>
-                <p>Our team is happy to answer your questions and give you more details about our products. Fill out the form or send an email, and we’ll get in touch.</p>
+                <h1>excited...? {<br></br>} Join the waitlist, {<br></br>} unsure...? {<br></br>} still join the waitlist 😂 </h1>
+                <p>Our team is happy to answer your questions and give you more details about feather. Fill out the form or send an email, and we’ll get in touch.</p>
             </div>
             
             <div className="connect">
                 
-                <h1>Contact Sales</h1>
+                <h1>Join Waithlist</h1>
             
                 <form onSubmit = {handleSubmit} className="contact_form">
 
@@ -86,11 +82,6 @@ const Contact = () => {
                         <input type="text" name = 'phone' placeholder = 'Phone Number' required value = {contact.phone} onChange = { handleChange }/>
                     </div>
 
-                    <div className="nameDiv">
-                        <input type="text" name = 'company' placeholder = 'Company Name' required value = {contact.company} onChange = { handleChange }/>
-                        <input type="text" name = 'role' placeholder = 'Role' required value = {contact.role} onChange = { handleChange }/>
-                    </div>
-
                     <div className="select">
                         <select id="select-country" required >
                             <option value="" > -- Select Country -- </option>
@@ -99,7 +90,7 @@ const Contact = () => {
                     </div>
 
                     <div className="submit">
-                        <button>Request Demo</button>
+                        <button>Join Waitlist</button>
                     </div>
 
                 </form>
@@ -110,7 +101,7 @@ const Contact = () => {
                     
                     <div className="inform">
                         <h1>Request sent successfully</h1>
-                        <p>Thank you for reaching out to us {contact.firstname}, an email will be sent to you shortly  </p>
+                        <p>Thank you for joining the waitlist <strong>{contact.firstname}</strong>, an email will be sent to you shortly  </p>
                     </div>
 
                 </div>

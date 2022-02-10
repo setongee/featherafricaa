@@ -19,7 +19,7 @@ const NavBar = () => {
                 <div className="nav-links">
                     <li><a href="#features">Features</a></li>
                     <li><a href="#usecase">Use cases</a></li>
-                    <li><a href="#contact">Get in touch</a></li>
+                    <li><a href="#contact">Join Waitlist</a></li>
                 </div>
 
                 <div className="action-btn">Dashboard</div>
