@@ -65,7 +65,7 @@ const Contact = () => {
             
             <div className="connect">
                 
-                <h1>Join Waithlist</h1>
+                <h1>Join Waitlist</h1>
             
                 <form onSubmit = {handleSubmit} className="contact_form">
 

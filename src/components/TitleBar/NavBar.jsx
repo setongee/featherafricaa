@@ -22,8 +22,6 @@ const NavBar = () => {
                     <li><a href="#contact">Join Waitlist</a></li>
                 </div>
 
-                <div className="action-btn">Dashboard</div>
-
                 <div className="burger">
 
                     <FeatherIcon icon = 'menu' onClick = {() => {setBurgerState(!burgerOpen);}}/>
@@ -33,11 +31,8 @@ const NavBar = () => {
                         <div className="nav-links-burger">
                             <li><a href="#features" onClick = {() => setBurgerState(false)} >Features</a></li>
                             <li><a href="#usecase">Use cases</a></li>
-                            <li><a href="#contact" onClick = {() => setBurgerState(false)} > Request Demo </a></li>
-                            <li><a href="#contact" onClick = {() => setBurgerState(false)} >Get in touch</a></li>
+                            <li><a href="#contact" onClick = {() => setBurgerState(false)} >Join Waitlist</a></li>
                         </div>
-
-                        <div className="action-btn-burger">Dashboard</div>
 
                     </div>
 

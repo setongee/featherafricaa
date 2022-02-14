@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^12.8.3",
     "axios": "^0.21.1",
     "cors": "^2.8.5",
+    "express": "^4.17.2",
     "feather-icons-react": "^0.4.3",
     "firebase": "^8.6.7",
     "node-sass": "^6.0.0",
