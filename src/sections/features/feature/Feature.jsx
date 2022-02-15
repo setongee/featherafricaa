@@ -9,7 +9,7 @@ const Feature = ( { tag, icon, color, header, header2, subtitle, image, track, t
 
     return (
 
-        <div className = {`features_container ${track === 3 ? 'last-child-feature' : ''}`} id = 'features' >
+        <div className = 'features_container'  id = 'features' >
             
             <div className="tagArea">{tag2}</div>
 
@@ -28,8 +28,6 @@ const Feature = ( { tag, icon, color, header, header2, subtitle, image, track, t
                 <div className="illustration">
                     <img src={image} alt={tag} />
                 </div>
-
-                <Line className = 'dash_line' />
 
             </div>
 

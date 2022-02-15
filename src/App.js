@@ -63,7 +63,7 @@ const App = () => {
     },
     {
       tag : 'Chat',
-      tag2 : 'In---Chat',
+      tag2 : '----Messaging',
       icon : 'message-circle',
       color : '#003ad6',
       header : 'In-App',
