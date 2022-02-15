@@ -2,7 +2,6 @@
     background-color: #fff;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     padding: 20px 250px;
 
     .logo{
@@ -15,10 +14,11 @@
 
     .nav-links{
         display: flex;
+        margin-left: 50px;
 
         li{
             list-style-type: none;
-            margin: 0 25px;
+            margin: 0 15px;
 
             a{
                 text-decoration: none;
@@ -109,7 +109,6 @@
     position: fixed;
     z-index: 9999;
     width: 100%;
-    max-width: 1440px;
 
 }
 
@@ -124,6 +123,7 @@
   @media (max-width: 992px) {
 
     .navigation{
+        justify-content: space-between;
         padding: 20px 100px;
 
         .nav-links, .action-btn {display: none;}
