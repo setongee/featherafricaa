@@ -24,7 +24,7 @@ const App = () => {
       color : '#004eff',
       header : 'Transfer',
       header2 : ' money easily.',
-      subtitle : 'end and receive money from anyone using feather and even to bank accounts.',
+      subtitle : 'Send and receive money from anyone using feather or bank accounts.',
       image : transfer,
       position : true
     },
@@ -68,7 +68,7 @@ const App = () => {
       color : '#003ad6',
       header : 'In-App',
       header2 : ' Messaging : ',
-      subtitle : 'enjoy a seamless transaction experience through our in-app communication with your cash vendor.',
+      subtitle : 'Enjoy a seamless transaction experience through our in-app communication with your cash vendor.',
       image : chat,
       position : true
     }

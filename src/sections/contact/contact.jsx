@@ -59,7 +59,7 @@ const Contact = () => {
         <div className="contact" id = 'contact'>
 
             <div className="contact_content">
-                <h1>excited...? {<br></br>} Join the waitlist, {<br></br>} unsure...? {<br></br>} still join the waitlist 😂 </h1>
+                <h1>Excited...? {<br></br>} Join the waitlist, {<br></br>} unsure...? {<br></br>} still join the waitlist 😂 </h1>
                 <p>Our team is happy to answer your questions and give you more details about feather. Fill out the form or send an email, and we’ll get in touch.</p>
             </div>
             
