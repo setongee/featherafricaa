@@ -1,0 +1,40 @@
+.privacy{
+
+    padding-top: 70px;
+    .headPlace{
+        height: 350px;
+        background-color: #003ad6;
+        color : #fff;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;  
+         
+         h1{
+             font-size: 50px;
+             margin-bottom: 20px;
+         }
+
+         p{
+
+            font-size: 14px;
+         }
+    }
+
+    .contentPrivacy{
+
+        width: 50%;
+        text-align: justify;
+        margin: 70px auto;
+
+        .topic{
+            margin-bottom: 20px;
+            margin-top: 40px;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        line-height: 26px;
+    }
+}
+

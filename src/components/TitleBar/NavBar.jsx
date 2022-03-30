@@ -17,9 +17,10 @@ const NavBar = () => {
                 <div className="logo"><img src={Logo} alt="" /></div>
 
                 <div className="nav-links">
-                    <li><a href="#features">Features</a></li>
-                    <li><a href="#usecase">Use cases</a></li>
-                    <li><a href="#contact">Join Waitlist</a></li>
+                    <li><a href="/">Features</a></li>
+                    <li><a href="/">Use cases</a></li>
+                    <li><a href="/">Join Waitlist</a></li>
+                    <li><a href="/privacy">Privacy</a></li>
                 </div>
 
                 <div className="burger">
@@ -29,9 +30,10 @@ const NavBar = () => {
                     <div className = {`burger_nav ${burgerOpen ? 'burger_nav_open' : ''}`} >
                         
                         <div className="nav-links-burger">
-                            <li><a href="#features" onClick = {() => setBurgerState(false)} >Features</a></li>
-                            <li><a href="#usecase">Use cases</a></li>
-                            <li><a href="#contact" onClick = {() => setBurgerState(false)} >Join Waitlist</a></li>
+                            <li><a href="/" onClick = {() => setBurgerState(false)} >Features</a></li>
+                            <li><a href="/">Use cases</a></li>
+                            <li><a href="/" onClick = {() => setBurgerState(false)} >Join Waitlist</a></li>
+                            <li><a href="/privacy" onClick = {() => setBurgerState(false)} >Privacy</a></li>
                         </div>
 
                     </div>
