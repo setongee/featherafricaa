@@ -32,11 +32,23 @@ const Footer = () => {
 
             <Line className = 'line-footer' />
 
-            <div className="logo_giro">
-                <img src={Logo} alt="gironet logo" style = {logo} />
+            <div className="footer-flex">
+
+                <div className="logo_giro">
+                    <img src={Logo} alt="feather logo" style = {logo} />
+                </div>
+                
+                <div className="copyright" style = {copy} >
+                    @2022. Feather Africa Inc. All rights reserved
+                </div>
+
             </div>
-            <div className="copyright" style = {copy} >
-                @2022. Feather Africa Inc. All rights reserved
+
+            <div className="footer-text">
+
+                Owned by Flock technologies Ltd. (MTR GARDENS, Isheri Lagos)
+                A subsidiary of Feather Africa Inc. (Delaware, USA)
+
             </div>
 
         </div>
