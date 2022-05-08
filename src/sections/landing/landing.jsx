@@ -28,6 +28,10 @@ const Landing = () => {
 
                         <p className="size425"> Feather enables you withdraw cash from users or agents nearby: you can also make payments to your favorite vendors. It's easy, it's quick, it's safe.</p>
 
+                        <div className="lolz">
+                            <a className='downloadApp' href="https://play.google.com/store/apps/details?id=feather.peer">Download App</a>
+                        </div>
+
                     </div>
 
                     {/* <div className="powered">

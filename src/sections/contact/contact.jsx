@@ -55,60 +55,61 @@ const Contact = () => {
       }
 
     return (
+        
+        <div></div>
 
-        <div className="contact" id = 'contact'>
+        // <div className="contact" id = 'contact'>
 
-            <div className="contact_content">
-                <h1>Excited...? {<br></br>} Join the waitlist, {<br></br>} unsure...? {<br></br>} still join the waitlist 😂 </h1>
-                <p>Our team is happy to answer your questions and give you more details about feather. Fill out the form or send an email, and we’ll get in touch.</p>
-            </div>
+        //     <div className="contact_content">
+        //         <h1>Excited...? {<br></br>} download the App, {<br></br>} unsure...? {<br></br>} still download the app 😂 </h1>
+        //     </div>
             
-            <div className="connect">
+        //     {/* <div className="connect">
                 
-                <h1>Join Waitlist</h1>
+        //         <h1>Join Waitlist</h1>
             
-                <form onSubmit = {handleSubmit} className="contact_form">
+        //         <form onSubmit = {handleSubmit} className="contact_form">
 
-                    <div className="nameDiv">
-                        <input type="text" name = 'firstname' placeholder = 'Firstname' required value = {contact.firstname} onChange = { handleChange } />
-                        <input type="text" name = 'lastname' placeholder = 'Lastname' required value = {contact.lastname} onChange = { handleChange }/>
-                    </div>
+        //             <div className="nameDiv">
+        //                 <input type="text" name = 'firstname' placeholder = 'Firstname' required value = {contact.firstname} onChange = { handleChange } />
+        //                 <input type="text" name = 'lastname' placeholder = 'Lastname' required value = {contact.lastname} onChange = { handleChange }/>
+        //             </div>
 
-                    <div className="baseInput">
-                        <input type="email"  name = 'email' placeholder = 'Email Address' required value = {contact.email} onChange = { handleChange }/>
-                    </div>
+        //             <div className="baseInput">
+        //                 <input type="email"  name = 'email' placeholder = 'Email Address' required value = {contact.email} onChange = { handleChange }/>
+        //             </div>
 
-                    <div className="baseInput">
-                        <input type="text" name = 'phone' placeholder = 'Phone Number' required value = {contact.phone} onChange = { handleChange }/>
-                    </div>
+        //             <div className="baseInput">
+        //                 <input type="text" name = 'phone' placeholder = 'Phone Number' required value = {contact.phone} onChange = { handleChange }/>
+        //             </div>
 
-                    <div className="select">
-                        <select id="select-country" required >
-                            <option value="" > -- Select Country -- </option>
-                            <option value="nigeria" > Nigeria </option>
-                        </select>
-                    </div>
+        //             <div className="select">
+        //                 <select id="select-country" required >
+        //                     <option value="" > -- Select Country -- </option>
+        //                     <option value="nigeria" > Nigeria </option>
+        //                 </select>
+        //             </div>
 
-                    <div className="submit">
-                        <button>Join Waitlist</button>
-                    </div>
+        //             <div className="submit">
+        //                 <button>Join Waitlist</button>
+        //             </div>
 
-                </form>
+        //         </form>
 
-                <div className="successMail" style = { { display : sentmail ? 'flex' : 'none' } } >
+        //         <div className="successMail" style = { { display : sentmail ? 'flex' : 'none' } } >
 
-                    <Sent/>
+        //             <Sent/>
                     
-                    <div className="inform">
-                        <h1>Request sent successfully</h1>
-                        <p>Thank you for joining the waitlist <strong>{contact.firstname}</strong>, an email will be sent to you shortly  </p>
-                    </div>
+        //             <div className="inform">
+        //                 <h1>Request sent successfully</h1>
+        //                 <p>Thank you for joining the waitlist <strong>{contact.firstname}</strong>, an email will be sent to you shortly  </p>
+        //             </div>
 
-                </div>
+        //         </div>
 
-            </div>
+        //     </div> */}
 
-        </div>
+        // </div>
 
     );
 }

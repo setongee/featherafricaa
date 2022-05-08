@@ -19,7 +19,7 @@ const NavBar = () => {
                 <div className="nav-links">
                     <li><a href="/">Features</a></li>
                     <li><a href="/">Use cases</a></li>
-                    <li><a href="/">Join Waitlist</a></li>
+                    <li><a href="https://play.google.com/store/apps/details?id=feather.peer">Download App</a></li>
                     <li><a href="/privacy">Privacy</a></li>
                 </div>
 
@@ -32,7 +32,7 @@ const NavBar = () => {
                         <div className="nav-links-burger">
                             <li><a href="/" onClick = {() => setBurgerState(false)} >Features</a></li>
                             <li><a href="/">Use cases</a></li>
-                            <li><a href="/" onClick = {() => setBurgerState(false)} >Join Waitlist</a></li>
+                            <li><a href="/" onClick = {() => setBurgerState(false)} >Download App</a></li>
                             <li><a href="/privacy" onClick = {() => setBurgerState(false)} >Privacy</a></li>
                         </div>
 
