@@ -80,7 +80,7 @@ const Home = () => {
 
     <div className = 'container'>
 
-      <Link to = "/giveaway" className="banner"> Padi 😎, stand a chance to win up to <strong>N50,000</strong> and many more gifts. 🎉 <span> <strong>Click Here</strong> </span> to start winning</Link>
+      {/* <Link to = "/giveaway" className="banner"> Padi 😎, stand a chance to win up to <strong>N50,000</strong> and many more gifts. 🎉 <span> <strong>Click Here</strong> </span> to start winning</Link> */}
 
 
       <Landing/>
