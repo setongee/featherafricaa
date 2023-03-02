@@ -60,6 +60,17 @@ const Privacy = () => {
                     Location Information : We may collect your location information from your mobile device with your prior consent. Also, we have incorporated Google Maps into our Services, and you may consent to the collection of location information by Google Maps in connection with your use of this maps service. Any information collected via your use of Google Maps will be transmitted directly to Google and is not collected by us. Please refer to Google’s privacy policy for details about their collection, use and sharing of this information. For information about how to disable the collection of location information from your device, please see “Your Choices” below. 
                     
                     {<br></br>}{<br></br>}
+                    
+                    <strong>Phone Number and Contact</strong>
+
+Our website uses cookies to identify the areas of our website that you have visited. We use cookies to personalise the Content that you see on our website. We do not place personally identifiable information in Cookies. Most web browsers can be set to disable the use of Cookies. Please note that if you disable Cookies, you may not be able to access functionality on our website correctly or at all.
+
+In order to make your visit to the Website user-friendlier, to keep track of visits and to improve the service, the company collects a small piece of information sent from your browser, called a cookie. If you register with us or if you continue to use the website you agree to our use of cookies. We utilize cookies to help manage player logins, to protect against security issues, and to remember player preferences. We do not set a persistent cookie to store your passwords, as we do not want anyone to be able to access your account other than you. We will take all reasonable steps to ensure that your information and data is treated securely and in accordance with this Privacy Policy
+
+The Company uses phone numbers as unique identifiers so that it is easy for you to share or transfer airtime and data or to process transactions . We ask your permission before synchronising your contacts. We do not store your contact data, as this is not required. We only use the data to enable you to select from your contacts who you think may be interested in our service. 
+
+                    {<br></br>}{<br></br>}
+
 
                     Information Collected by Cookies and Other Tracking Technologies: We use various technologies to collect information on our Services and other websites, and this may include sending cookies to your computer or mobile device. Cookies are small data files stored on your hard drive or in device memory that help us to improve our Services and your experience, see which areas and features of our Services are popular and count visits. We may also collect information using web beacons (also known as "tracking pixels"). Web beacons are electronic images that may be used in our Services or emails and help deliver cookies, count visits, understand usage and campaign effectiveness and determine whether an email has been opened and acted upon.
 
